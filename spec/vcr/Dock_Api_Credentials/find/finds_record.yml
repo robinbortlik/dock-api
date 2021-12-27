@@ -1,0 +1,123 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/dids
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 11:13:57 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '239'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '193'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"ef-W0PcgsyEDjPJFnSLjmUv0vX/lVc"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1930","data":{"did":"did:dock:5FKm6R6r19LMDy6PpFG9JcgtUJJHhU22i1dckEKhPaSqZHYA","hexDid":"0x9030473a1a0ba43caaede63efd6fdf59b3d571f6c0fce00f2c32668f3c105f02","controller":"did:dock:5FKm6R6r19LMDy6PpFG9JcgtUJJHhU22i1dckEKhPaSqZHYA"}}'
+  recorded_at: Tue, 04 Jan 2022 11:13:57 GMT
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/credentials
+    body:
+      encoding: UTF-8
+      string: '{"persist":false,"anchor":true,"credential":{"id":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","context":["https://www.w3.org/2018/credentials/examples/v1"],"type":["UniversityDegreeCredential"],"subject":{"id":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","degree":{"type":"BachelorDegree","name":"Bachelor
+        of Science and Arts"}},"issuer":"did:dock:5FKm6R6r19LMDy6PpFG9JcgtUJJHhU22i1dckEKhPaSqZHYA","issuanceDate":"2020-08-24T14:15:22Z"}}'
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 11:13:57 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '797'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '192'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"31d-v1MxBdr5LeSGTB2ZOW43tSG91Eo"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"@context":["https://www.w3.org/2018/credentials/v1","https://www.w3.org/2018/credentials/examples/v1"],"id":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","type":["VerifiableCredential","UniversityDegreeCredential"],"credentialSubject":{"id":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","degree":{"type":"BachelorDegree","name":"Bachelor
+        of Science and Arts"}},"issuanceDate":"2020-08-24T14:15:22Z","proof":{"type":"Sr25519Signature2020","created":"2022-01-04T11:13:57Z","verificationMethod":"did:dock:5FKm6R6r19LMDy6PpFG9JcgtUJJHhU22i1dckEKhPaSqZHYA#keys-1","proofPurpose":"assertionMethod","proofValue":"z4ji94xsRmY6AWAVYnqYVmYQckNjMbUnNvWWEnrwHW3C4fFwAMEiTAciAJ5UKkj78npJ3QsaShrPodUynUhmsY4Yd"},"issuer":"did:dock:5FKm6R6r19LMDy6PpFG9JcgtUJJHhU22i1dckEKhPaSqZHYA"}'
+  recorded_at: Tue, 04 Jan 2022 11:13:57 GMT
+- request:
+    method: get
+    uri: https://api-testnet.dock.io/credentials/did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 11:13:57 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '263'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '191'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"107-aH8BSpQJQWVFUuMMjLM3chNAsj4"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","byteSize":797,"issuerKey":"did:dock:5HAFkYMq13m4zePMQvqmLo8x2JLbT7goETaYDDhJQtkBGioq#5DhsHULy4djqG5jXvaZrp6sLnoZiB9Hzb5ZvynvKFZp9c5h8                      ","createdAt":"2022-01-04T11:03:29.168Z"}'
+  recorded_at: Tue, 04 Jan 2022 11:13:57 GMT
+recorded_with: VCR 6.0.0

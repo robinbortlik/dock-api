@@ -1,0 +1,83 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/dids
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 11:29:32 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '239'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '183'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"ef-LeOP+AAc2ZXbUFVNXunCbZW9vVs"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1941","data":{"did":"did:dock:5GV8kc9M9UFSHEbmHpJu6axe3s91Gix7HisVBD2r3KNBCAjC","hexDid":"0xc392a1120e70961f09c460e297b49fcf4fc6b0a9f39ecdc4dbb15c2851ac7117","controller":"did:dock:5GV8kc9M9UFSHEbmHpJu6axe3s91Gix7HisVBD2r3KNBCAjC"}}'
+  recorded_at: Tue, 04 Jan 2022 11:29:32 GMT
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/registries
+    body:
+      encoding: UTF-8
+      string: '{"addOnly":false,"policy":["did:dock:5GV8kc9M9UFSHEbmHpJu6axe3s91Gix7HisVBD2r3KNBCAjC"]}'
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 11:29:32 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '207'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '182'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"cf-CzXXDRazqS1M2054fFvL3XKdHaU"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1942","data":{"id":"8673c847550a3f5b5f3f9eff28dca4821849632958147d17da745f76868690ee","policy":{"type":"OneOf","policy":["did:dock:5GV8kc9M9UFSHEbmHpJu6axe3s91Gix7HisVBD2r3KNBCAjC"],"addOnly":false}}}'
+  recorded_at: Tue, 04 Jan 2022 11:29:32 GMT
+recorded_with: VCR 6.0.0

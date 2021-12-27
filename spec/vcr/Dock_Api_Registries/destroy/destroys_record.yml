@@ -1,0 +1,155 @@
+---
+http_interactions:
+- request:
+    method: delete
+    uri: https://api-testnet.dock.io/registries/ac4ebcb0017694acebfa8748e2e40de8dd9c5d3a23f7b17ba7418e793ef261d7
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 08:47:57 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '192'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '188'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"c0-mMqULWKfY0VcG/DTZHClbhk1G4o"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1828","data":{"id":"ac4ebcb0017694acebfa8748e2e40de8dd9c5d3a23f7b17ba7418e793ef261d7","hexId":"ac4ebcb0017694acebfa8748e2e40de8dd9c5d3a23f7b17ba7418e793ef261d7","lastModified":5236838}}'
+  recorded_at: Tue, 04 Jan 2022 08:47:57 GMT
+- request:
+    method: delete
+    uri: https://api-testnet.dock.io/registries/cc37fdc94806e5f76a34bf1fcda88691bd602eea9cc9d1741b9c3cfd557008ba
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 09:12:22 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '192'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '189'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"c0-M9HwVtL+1zUskZ4G8RjvFTHo26A"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1852","data":{"id":"cc37fdc94806e5f76a34bf1fcda88691bd602eea9cc9d1741b9c3cfd557008ba","hexId":"cc37fdc94806e5f76a34bf1fcda88691bd602eea9cc9d1741b9c3cfd557008ba","lastModified":5236843}}'
+  recorded_at: Tue, 04 Jan 2022 09:12:22 GMT
+- request:
+    method: delete
+    uri: https://api-testnet.dock.io/registries/b57977b0a1e0750d7114b27e19dcea5e3ccbb5ce4b5d32ee3caa96589934f3d9
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 10:48:38 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '192'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '198'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"c0-QTd1pmDY2MrqhhUSXiVMNiW6vcg"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1917","data":{"id":"b57977b0a1e0750d7114b27e19dcea5e3ccbb5ce4b5d32ee3caa96589934f3d9","hexId":"b57977b0a1e0750d7114b27e19dcea5e3ccbb5ce4b5d32ee3caa96589934f3d9","lastModified":5236862}}'
+  recorded_at: Tue, 04 Jan 2022 10:48:38 GMT
+- request:
+    method: delete
+    uri: https://api-testnet.dock.io/registries/8673c847550a3f5b5f3f9eff28dca4821849632958147d17da745f76868690ee
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 11:48:02 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '192'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '198'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"c0-F5ULMmMoS51q5eKxLHgRuvynYyE"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1946","data":{"id":"8673c847550a3f5b5f3f9eff28dca4821849632958147d17da745f76868690ee","hexId":"8673c847550a3f5b5f3f9eff28dca4821849632958147d17da745f76868690ee","lastModified":5236872}}'
+  recorded_at: Tue, 04 Jan 2022 11:48:02 GMT
+recorded_with: VCR 6.0.0

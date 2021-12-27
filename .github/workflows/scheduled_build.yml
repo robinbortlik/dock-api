@@ -1,0 +1,14 @@
+name: Scheduled Build
+on:
+  schedule:
+    - cron: "15 0 * * *"
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: ruby/setup-ruby@v1
+      with:
+        bundler-cache: true # runs 'bundle install' and caches installed gems automatically
+    - run: VCR=all DOCK_API_TOKEN=${{ secrets.DOCK_API_TOKEN }} bundle exec rspec

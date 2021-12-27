@@ -1,0 +1,71 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://api-testnet.dock.io/profiles
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 11:29:31 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '163'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '185'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"a3-u189dEcOC8Bq0mG50QEU0P5jRVI"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '[{"name":"John Doe","logo":"https://pictures.com/logo.jpg","did":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","created":"2022-01-04T11:29:30.068Z"}]'
+  recorded_at: Tue, 04 Jan 2022 11:29:31 GMT
+- request:
+    method: delete
+    uri: https://api-testnet.dock.io/profiles/did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 11:29:31 GMT
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '184'
+      access-control-allow-origin:
+      - "*"
+    body:
+      encoding: ASCII-8BIT
+      string: ''
+  recorded_at: Tue, 04 Jan 2022 11:29:31 GMT
+recorded_with: VCR 6.0.0

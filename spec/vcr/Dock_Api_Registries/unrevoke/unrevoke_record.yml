@@ -1,0 +1,325 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/registries/ac4ebcb0017694acebfa8748e2e40de8dd9c5d3a23f7b17ba7418e793ef261d7
+    body:
+      encoding: UTF-8
+      string: '{"action":"unrevoke","credentialIds":["did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA"]}'
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 08:47:55 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '105'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '192'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"69-f4H2ygO/rfSWvS/mlLz57g6mvbQ"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1824","data":{"revokeIds":["0x1177e6719ccb5fa4e4def4a7c7e574ebeb76bc91e55e926afc743b8b77eaf26f"]}}'
+  recorded_at: Tue, 04 Jan 2022 08:47:55 GMT
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/registries/cc37fdc94806e5f76a34bf1fcda88691bd602eea9cc9d1741b9c3cfd557008ba
+    body:
+      encoding: UTF-8
+      string: '{"action":"unrevoke","credentialIds":["did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA"]}'
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 09:12:20 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '105'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '193'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"69-RUAouyiChQXp4zWkL0eZSKPFmpU"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1848","data":{"revokeIds":["0x1177e6719ccb5fa4e4def4a7c7e574ebeb76bc91e55e926afc743b8b77eaf26f"]}}'
+  recorded_at: Tue, 04 Jan 2022 09:12:20 GMT
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/registries/10d0439b5c70e9f92afbf7e177afbb3aad6c4a930353c38a1de202b3c012ceac
+    body:
+      encoding: UTF-8
+      string: '{"action":"unrevoke","credentialIds":["did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA"]}'
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 09:32:26 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '105'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '193'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"69-4utmdSW6aNpPy6xvucz0l0ILklQ"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1875","data":{"revokeIds":["0x1177e6719ccb5fa4e4def4a7c7e574ebeb76bc91e55e926afc743b8b77eaf26f"]}}'
+  recorded_at: Tue, 04 Jan 2022 09:32:26 GMT
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/registries/d2f23bd960d61466fda658cb5f0ccc538219f39552d05c7108c6697a0f507640
+    body:
+      encoding: UTF-8
+      string: '{"action":"unrevoke","credentialIds":["did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA"]}'
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 10:28:09 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '105'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '192'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"69-Xw5JIayrP4fPfc5u4UQrSSf0xEY"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1902","data":{"revokeIds":["0x1177e6719ccb5fa4e4def4a7c7e574ebeb76bc91e55e926afc743b8b77eaf26f"]}}'
+  recorded_at: Tue, 04 Jan 2022 10:28:09 GMT
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/registries/fe05262cf6f2978c66659543064507debe668d93ec2345f22848f7e1cef23ace
+    body:
+      encoding: UTF-8
+      string: '{"action":"unrevoke","credentialIds":["did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA"]}'
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 10:59:21 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '105'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '193'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"69-WQit+RQruQkQ7B3bF+Fw0XUWW7U"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1922","data":{"revokeIds":["0x1177e6719ccb5fa4e4def4a7c7e574ebeb76bc91e55e926afc743b8b77eaf26f"]}}'
+  recorded_at: Tue, 04 Jan 2022 10:59:21 GMT
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/dids
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 11:34:42 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '239'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '195'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"ef-xPZazzVJnhJEShgYEeACVzuEto4"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1943","data":{"did":"did:dock:5EkoXSgmKdZTf899t5tnGkoUvE1xmLv8pauR7o8rQHT8FWR9","hexDid":"0x770d5d74d2d73ccc8cbdbda858ef14c76ef2ee1620af41f99225e2d09ad02c16","controller":"did:dock:5EkoXSgmKdZTf899t5tnGkoUvE1xmLv8pauR7o8rQHT8FWR9"}}'
+  recorded_at: Tue, 04 Jan 2022 11:34:42 GMT
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/credentials
+    body:
+      encoding: UTF-8
+      string: '{"persist":false,"anchor":true,"credential":{"id":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","context":["https://www.w3.org/2018/credentials/examples/v1"],"type":["UniversityDegreeCredential"],"subject":{"id":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","degree":{"type":"BachelorDegree","name":"Bachelor
+        of Science and Arts"}},"issuer":"did:dock:5EkoXSgmKdZTf899t5tnGkoUvE1xmLv8pauR7o8rQHT8FWR9","issuanceDate":"2020-08-24T14:15:22Z"}}'
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 11:34:42 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '797'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '194'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"31d-LD/zrSKfHs0HvhsYDbhqzelXzqM"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"@context":["https://www.w3.org/2018/credentials/v1","https://www.w3.org/2018/credentials/examples/v1"],"id":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","type":["VerifiableCredential","UniversityDegreeCredential"],"credentialSubject":{"id":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","degree":{"type":"BachelorDegree","name":"Bachelor
+        of Science and Arts"}},"issuanceDate":"2020-08-24T14:15:22Z","proof":{"type":"Sr25519Signature2020","created":"2022-01-04T11:34:42Z","verificationMethod":"did:dock:5EkoXSgmKdZTf899t5tnGkoUvE1xmLv8pauR7o8rQHT8FWR9#keys-1","proofPurpose":"assertionMethod","proofValue":"z5NSYnrz92QB9swZpHjsAb23PF1UZPMgrYUpiGyU4ByPC75jbdKPQDpbu3HttagAzstBjQbLkvchfuuHzLx1HL3EM"},"issuer":"did:dock:5EkoXSgmKdZTf899t5tnGkoUvE1xmLv8pauR7o8rQHT8FWR9"}'
+  recorded_at: Tue, 04 Jan 2022 11:34:42 GMT
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/registries/8673c847550a3f5b5f3f9eff28dca4821849632958147d17da745f76868690ee
+    body:
+      encoding: UTF-8
+      string: '{"action":"unrevoke","credentialIds":["did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA"]}'
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 11:34:42 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '105'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '193'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"69-8pNBAkPRVEtzZL6bnlwm9ky7DoM"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1945","data":{"revokeIds":["0x1177e6719ccb5fa4e4def4a7c7e574ebeb76bc91e55e926afc743b8b77eaf26f"]}}'
+  recorded_at: Tue, 04 Jan 2022 11:34:42 GMT
+recorded_with: VCR 6.0.0

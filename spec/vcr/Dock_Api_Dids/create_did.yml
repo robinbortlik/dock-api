@@ -1,0 +1,43 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/dids
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 11:14:00 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '239'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '187'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"ef-qp/BqPL4z67HeZVmXZdizca02MM"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1934","data":{"did":"did:dock:5DXws6NYH7GdENGJ2FGbcmos3Qy3csGFgqnoJq9ZoxbNkWKS","hexDid":"0x41030320d5ca3566f2422263276c0f8d2c08b540a31a1bd215b50fbd1066da49","controller":"did:dock:5DXws6NYH7GdENGJ2FGbcmos3Qy3csGFgqnoJq9ZoxbNkWKS"}}'
+  recorded_at: Tue, 04 Jan 2022 11:14:00 GMT
+recorded_with: VCR 6.0.0

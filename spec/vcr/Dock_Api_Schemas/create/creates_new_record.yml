@@ -1,0 +1,85 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/dids
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 11:54:16 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '239'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '192'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"ef-Gmx/qonMaIRaf/BbIRsguW0eBI4"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1952","data":{"did":"did:dock:5FLSfzbTjhWVRfse8ksrpUyEMgSLjqyBC6qpA3gBChCgmnP6","hexDid":"0x90b583441ee9116a7e392d9a2409bad1b914a21893413d33c913723f5206daf3","controller":"did:dock:5FLSfzbTjhWVRfse8ksrpUyEMgSLjqyBC6qpA3gBChCgmnP6"}}'
+  recorded_at: Tue, 04 Jan 2022 11:54:17 GMT
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/schemas
+    body:
+      encoding: UTF-8
+      string: '{"$schema":"http://json-schema.org/draft-07/schema#","description":"Dock
+        Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false,"author":"did:dock:5FLSfzbTjhWVRfse8ksrpUyEMgSLjqyBC6qpA3gBChCgmnP6"}'
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 11:54:17 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '687'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '191'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"2af-cIwnMS3g+HjOL1m21AJZoL74xpo"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1953","data":{"id":"dd955f7aa01b51d473b776bcbd850274981865eef09f00ac79ef52d589f0f4ef","schema":{"$schema":"http://json-schema.org/draft-07/schema#","description":"Dock
+        Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false},"author":"did:dock:5FLSfzbTjhWVRfse8ksrpUyEMgSLjqyBC6qpA3gBChCgmnP6","signature":{"Sr25519":"0x9634c6d3441731c40169193923ea7ae5993d35a5221874f710876ea856995c2496563d4a340436943c4f12da67a7504ff45e2fe9d67b18eda7701b439dafdd8a"},"uri":"blob:dock:5H5Ep6EverwD9FxHCQKF2ysmK5GPCj7K5HKAFK4qZUjjKaZH"}}'
+  recorded_at: Tue, 04 Jan 2022 11:54:17 GMT
+recorded_with: VCR 6.0.0

@@ -1,0 +1,477 @@
+---
+http_interactions:
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/registries/bc7ca74211bb82f1dc94dbadc969b41fea8b86dcfdd88d0db6da32e433edb31f
+    body:
+      encoding: UTF-8
+      string: '{"action":"revoke","credentialIds":["did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA"]}'
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Mon, 03 Jan 2022 22:24:33 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '105'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '196'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"69-GRbFLCKJdmENSC23ifkjRn4BeQU"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1701","data":{"revokeIds":["0x1177e6719ccb5fa4e4def4a7c7e574ebeb76bc91e55e926afc743b8b77eaf26f"]}}'
+  recorded_at: Mon, 03 Jan 2022 22:24:33 GMT
+- request:
+    method: get
+    uri: https://api-testnet.dock.io/revocationStatus/bc7ca74211bb82f1dc94dbadc969b41fea8b86dcfdd88d0db6da32e433edb31f/0x1177e6719ccb5fa4e4def4a7c7e574ebeb76bc91e55e926afc743b8b77eaf26f
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Mon, 03 Jan 2022 22:24:34 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '14'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '195'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"e-mje7rB7UlYZf4YqQ7pu+7K79+y8"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"type":false}'
+  recorded_at: Mon, 03 Jan 2022 22:24:34 GMT
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/registries
+    body:
+      encoding: UTF-8
+      string: '{"addOnly":false,"policy":["did:dock:5EmmENs5MUDbh53fme6SXxdDPXPpujmbVYDnrkYUfuh7PXns"]}'
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 08:32:05 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '207'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '194'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"cf-3geKElhhpHlJgw1Ndov2aphqyZM"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1812","data":{"id":"27d8dfd2f40a97332f779115bee9d282f95fd16f71f63315340f05b5820f23ed","policy":{"type":"OneOf","policy":["did:dock:5EmmENs5MUDbh53fme6SXxdDPXPpujmbVYDnrkYUfuh7PXns"],"addOnly":false}}}'
+  recorded_at: Tue, 04 Jan 2022 08:32:05 GMT
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/registries/27d8dfd2f40a97332f779115bee9d282f95fd16f71f63315340f05b5820f23ed
+    body:
+      encoding: UTF-8
+      string: '{"action":"revoke","credentialIds":["did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA"]}'
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 08:37:14 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '105'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '195'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"69-yH+V/X/fmZTlWkSxT4smI+dSjvE"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1815","data":{"revokeIds":["0x1177e6719ccb5fa4e4def4a7c7e574ebeb76bc91e55e926afc743b8b77eaf26f"]}}'
+  recorded_at: Tue, 04 Jan 2022 08:37:14 GMT
+- request:
+    method: get
+    uri: https://api-testnet.dock.io/revocationStatus/27d8dfd2f40a97332f779115bee9d282f95fd16f71f63315340f05b5820f23ed/0x1177e6719ccb5fa4e4def4a7c7e574ebeb76bc91e55e926afc743b8b77eaf26f
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 08:37:14 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '14'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '194'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"e-mje7rB7UlYZf4YqQ7pu+7K79+y8"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"type":false}'
+  recorded_at: Tue, 04 Jan 2022 08:37:14 GMT
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/dids
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 10:43:37 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '239'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '198'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"ef-XgIxTqUI30CUY1u5SDrGqekDVSM"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1908","data":{"did":"did:dock:5HV7yd33ogHBZK8D6FwoFx7qBQLjPyWBPeGpg8wXVbrce7LJ","hexDid":"0xefcc40722d7e2420056dabb1025c701ddec706bdb330600e37e14b5ec0fd7f7a","controller":"did:dock:5HV7yd33ogHBZK8D6FwoFx7qBQLjPyWBPeGpg8wXVbrce7LJ"}}'
+  recorded_at: Tue, 04 Jan 2022 10:43:37 GMT
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/registries/c05d4985b9e4f8b7c39b6dbf501ae91b5f708a1c47bfbc4fc49f8c973cbacbf7
+    body:
+      encoding: UTF-8
+      string: '{"action":"revoke","credentialIds":["did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA"]}'
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 10:43:37 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '105'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '196'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"69-TUFNwoeH9vjDtBSALYV8/rsK8fg"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1910","data":{"revokeIds":["0x1177e6719ccb5fa4e4def4a7c7e574ebeb76bc91e55e926afc743b8b77eaf26f"]}}'
+  recorded_at: Tue, 04 Jan 2022 10:43:37 GMT
+- request:
+    method: get
+    uri: https://api-testnet.dock.io/revocationStatus/c05d4985b9e4f8b7c39b6dbf501ae91b5f708a1c47bfbc4fc49f8c973cbacbf7/0x1177e6719ccb5fa4e4def4a7c7e574ebeb76bc91e55e926afc743b8b77eaf26f
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 10:43:37 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '14'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '195'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"e-mje7rB7UlYZf4YqQ7pu+7K79+y8"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"type":false}'
+  recorded_at: Tue, 04 Jan 2022 10:43:37 GMT
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/dids
+    body:
+      encoding: UTF-8
+      string: "{}"
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 11:54:14 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '239'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '197'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"ef-h0q3SPKMTA8YFZmgc3kSskuMwJg"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1949","data":{"did":"did:dock:5FjBJrWhpynhTDYXXAVBmq9rc9zbtKxWCP5qRjzKchXhwG5F","hexDid":"0xa20c6f85e8e97ba6472b7a1441c33f048dbde937748f0f58f4440ac202134ed6","controller":"did:dock:5FjBJrWhpynhTDYXXAVBmq9rc9zbtKxWCP5qRjzKchXhwG5F"}}'
+  recorded_at: Tue, 04 Jan 2022 11:54:14 GMT
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/credentials
+    body:
+      encoding: UTF-8
+      string: '{"persist":false,"anchor":true,"credential":{"id":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","context":["https://www.w3.org/2018/credentials/examples/v1"],"type":["UniversityDegreeCredential"],"subject":{"id":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","degree":{"type":"BachelorDegree","name":"Bachelor
+        of Science and Arts"}},"issuer":"did:dock:5FjBJrWhpynhTDYXXAVBmq9rc9zbtKxWCP5qRjzKchXhwG5F","issuanceDate":"2020-08-24T14:15:22Z"}}'
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 11:54:14 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '797'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '196'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"31d-w6vJ2Fl36QjgyXXCt5IMwIt56YA"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"@context":["https://www.w3.org/2018/credentials/v1","https://www.w3.org/2018/credentials/examples/v1"],"id":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","type":["VerifiableCredential","UniversityDegreeCredential"],"credentialSubject":{"id":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","degree":{"type":"BachelorDegree","name":"Bachelor
+        of Science and Arts"}},"issuanceDate":"2020-08-24T14:15:22Z","proof":{"type":"Sr25519Signature2020","created":"2022-01-04T11:54:14Z","verificationMethod":"did:dock:5FjBJrWhpynhTDYXXAVBmq9rc9zbtKxWCP5qRjzKchXhwG5F#keys-1","proofPurpose":"assertionMethod","proofValue":"z5LZfvrkyVyUCdSJFyV69Ez1t2fsj7pwvVmXPzgsfxDJPxHJkAZnaVJ4pHaBHYf2yzjj9uFdgwjbKGqG2jpqLfybE"},"issuer":"did:dock:5FjBJrWhpynhTDYXXAVBmq9rc9zbtKxWCP5qRjzKchXhwG5F"}'
+  recorded_at: Tue, 04 Jan 2022 11:54:15 GMT
+- request:
+    method: post
+    uri: https://api-testnet.dock.io/registries/f8667a1043dd7ebdd05ab97b3c14c07a5ab737d252f37a18f0792a53249cbdbb
+    body:
+      encoding: UTF-8
+      string: '{"action":"revoke","credentialIds":["did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA"]}'
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Content-Type:
+      - application/json
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 11:54:15 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '105'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '195'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"69-pAGH3D1pFA11n+GZfgIlTiYm3rc"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"id":"1951","data":{"revokeIds":["0x1177e6719ccb5fa4e4def4a7c7e574ebeb76bc91e55e926afc743b8b77eaf26f"]}}'
+  recorded_at: Tue, 04 Jan 2022 11:54:15 GMT
+- request:
+    method: get
+    uri: https://api-testnet.dock.io/revocationStatus/f8667a1043dd7ebdd05ab97b3c14c07a5ab737d252f37a18f0792a53249cbdbb/0x1177e6719ccb5fa4e4def4a7c7e574ebeb76bc91e55e926afc743b8b77eaf26f
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Faraday v2.0.0.alpha-4
+      Authorization:
+      - PLACEHOLDER_AUTHORIZATION
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      date:
+      - Tue, 04 Jan 2022 11:54:15 GMT
+      content-type:
+      - application/json; charset=utf-8
+      content-length:
+      - '14'
+      x-powered-by:
+      - Express
+      x-ratelimit-limit:
+      - '200'
+      x-ratelimit-remaining:
+      - '194'
+      access-control-allow-origin:
+      - "*"
+      etag:
+      - W/"e-mje7rB7UlYZf4YqQ7pu+7K79+y8"
+      vary:
+      - Accept-Encoding
+    body:
+      encoding: UTF-8
+      string: '{"type":false}'
+  recorded_at: Tue, 04 Jan 2022 11:54:15 GMT
+recorded_with: VCR 6.0.0
