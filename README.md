@@ -103,6 +103,8 @@ Dock::Api::Verify.verify
 
 ### Documentations
 
+Gem documentation: https://www.rubydoc.info/github/robinbortlik/dock-api/main
+
 Official Dock API documentation: https://docs.api.dock.io/#the-dock-api
 
 Swagger console: https://swagger.api.dock.io/
