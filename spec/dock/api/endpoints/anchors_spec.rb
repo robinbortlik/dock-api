@@ -3,9 +3,6 @@
 require 'spec_helper'
 
 RSpec.describe Dock::Api::Anchors do
-  let(:anchor) do
-  end
-
   # setup anchor record
   before :all do
     VCR.use_cassette('Dock_Api_Anchors/create_anchor') do
