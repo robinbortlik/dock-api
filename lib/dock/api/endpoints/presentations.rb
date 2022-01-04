@@ -6,8 +6,8 @@ module Dock
       NAMESPACE = '/presentations'
 
       class << self
-        def create(**attrs)
-          post(NAMESPACE.to_s, attrs)
+        def create(attrs = {})
+          post(NAMESPACE, attrs)
         end
       end
     end
