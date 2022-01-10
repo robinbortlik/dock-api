@@ -61,7 +61,7 @@ RSpec.describe Dock::Api::Credentials do
       did = described_class.create(credentials).fetch('id')
       data = described_class.destroy(did)
 
-      expect(data).to eq({ 'success' => true })
+      expect(data).to eq('')
     end
   end
 end

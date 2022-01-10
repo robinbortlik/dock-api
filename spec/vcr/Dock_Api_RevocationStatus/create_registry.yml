@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Tue, 04 Jan 2022 11:49:05 GMT
+      - Mon, 10 Jan 2022 08:27:46 GMT
       content-type:
       - application/json; charset=utf-8
       content-length:
@@ -33,19 +33,19 @@ http_interactions:
       access-control-allow-origin:
       - "*"
       etag:
-      - W/"ef-H/bfp/4jfSDUe4tFOnxESPie/hk"
+      - W/"ef-21+hjMVBShIn6RKevnTFPoJZveY"
       vary:
       - Accept-Encoding
     body:
       encoding: UTF-8
-      string: '{"id":"1947","data":{"did":"did:dock:5FKNzwPHWSx43s3tegfksayUVBeECfVVKFwwymUSRMsRT25R","hexDid":"0x8fe5e6d57993939cd5def8c68e6aed1b37c8a80315240d0a41ef5606248cd5ba","controller":"did:dock:5FKNzwPHWSx43s3tegfksayUVBeECfVVKFwwymUSRMsRT25R"}}'
-  recorded_at: Tue, 04 Jan 2022 11:49:05 GMT
+      string: '{"id":"2268","data":{"did":"did:dock:5E1uGFtwtBVrTGBk9BYbmy6CEEbFzMX9KDWMzQT8t97cyKeY","hexDid":"0x5655210baf4dd60d913dff442c70968d16813f1ea417f02c460cc354df95ba40","controller":"did:dock:5E1uGFtwtBVrTGBk9BYbmy6CEEbFzMX9KDWMzQT8t97cyKeY"}}'
+  recorded_at: Mon, 10 Jan 2022 08:27:46 GMT
 - request:
     method: post
     uri: https://api-testnet.dock.io/registries
     body:
       encoding: UTF-8
-      string: '{"addOnly":false,"policy":["did:dock:5FKNzwPHWSx43s3tegfksayUVBeECfVVKFwwymUSRMsRT25R"]}'
+      string: '{"addOnly":false,"policy":["did:dock:5E1uGFtwtBVrTGBk9BYbmy6CEEbFzMX9KDWMzQT8t97cyKeY"]}'
     headers:
       User-Agent:
       - Faraday v2.0.0.alpha-4
@@ -59,7 +59,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Tue, 04 Jan 2022 11:49:06 GMT
+      - Mon, 10 Jan 2022 08:27:46 GMT
       content-type:
       - application/json; charset=utf-8
       content-length:
@@ -73,11 +73,11 @@ http_interactions:
       access-control-allow-origin:
       - "*"
       etag:
-      - W/"cf-Xal7XEx9gi+Ba50kfqxeBu0e36c"
+      - W/"cf-uatN3W8v0yRITOQu6U20yeqs6N4"
       vary:
       - Accept-Encoding
     body:
       encoding: UTF-8
-      string: '{"id":"1948","data":{"id":"f8667a1043dd7ebdd05ab97b3c14c07a5ab737d252f37a18f0792a53249cbdbb","policy":{"type":"OneOf","policy":["did:dock:5FKNzwPHWSx43s3tegfksayUVBeECfVVKFwwymUSRMsRT25R"],"addOnly":false}}}'
-  recorded_at: Tue, 04 Jan 2022 11:49:06 GMT
+      string: '{"id":"2269","data":{"id":"f225a013dba27ea00e2b7c8c2ad3b455b9dba4466bba906a3573c0e465d5fae8","policy":{"type":"OneOf","policy":["did:dock:5E1uGFtwtBVrTGBk9BYbmy6CEEbFzMX9KDWMzQT8t97cyKeY"],"addOnly":false}}}'
+  recorded_at: Mon, 10 Jan 2022 08:27:46 GMT
 recorded_with: VCR 6.0.0

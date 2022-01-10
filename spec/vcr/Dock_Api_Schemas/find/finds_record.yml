@@ -17,7 +17,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Tue, 04 Jan 2022 11:54:17 GMT
+      - Mon, 10 Jan 2022 08:32:57 GMT
       content-type:
       - application/json; charset=utf-8
       x-powered-by:
@@ -29,7 +29,7 @@ http_interactions:
       access-control-allow-origin:
       - "*"
       etag:
-      - W/"bf5-CNKV9BjDfFx0o/hafyZqljEzS/U"
+      - W/"1de3-hr8Z3MZ03J4JB2Ez0a+Xf27g2no"
       vary:
       - Accept-Encoding
       content-encoding:
@@ -42,8 +42,17 @@ http_interactions:
         Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false},"author":"did:dock:5EqrJxtk4y1xDysnvgCtUMEd3DTLYJ4Sfq9ZUjGcQ4ChqLvJ","uri":"blob:dock:5ER1BBuMjwkEA98s2LSmxSszpafwfbDutUtAeh69DdYZ2y8e"},{"id":"4954df11f45e8234637e2f43b63ebcd1235b896b9c11e62b48645b5f4c4098a7","schema":{"$schema":"http://json-schema.org/draft-07/schema#","description":"Dock
         Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false},"author":"did:dock:5Co5aAKxb5Mj3RTUcUq3RP3LzZwSwTKBxU2z2QKxNSssW37A","uri":"blob:dock:5DirZiG8wmp5ChXPSRZozEMnxtQ2JLfFf1eLRLigya76Zvtw"},{"id":"1fd25ef649d5a3f745c18d9f89159f47054baedf118f1c6518e088fea3fad327","schema":{"$schema":"http://json-schema.org/draft-07/schema#","description":"Dock
         Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false},"author":"did:dock:5HZRzeKwYdj4BQq6n5nhAxSXY1bouYisZr3j69Xej3La5jXv","uri":"blob:dock:5CnRqNZCjiJTJWU4CxEFkV3sGx9jcfQfcLaL1ccfGRqxw4Wf"},{"id":"b0b5bf06cb56b56618ef5141b532434de21067ed02275aaf827efe0295eedadd","schema":{"$schema":"http://json-schema.org/draft-07/schema#","description":"Dock
-        Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false},"author":"did:dock:5DiUy9sFVt7NUxjwCfYffWZtsmTxDX4qCm511zCKzAv888n9","uri":"blob:dock:5G4QGtZrvkgFG8vfyCuJHQYuZAHGDnxFtRL2Xfte3hbarvUc"}]'
-  recorded_at: Tue, 04 Jan 2022 11:54:17 GMT
+        Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false},"author":"did:dock:5DiUy9sFVt7NUxjwCfYffWZtsmTxDX4qCm511zCKzAv888n9","uri":"blob:dock:5G4QGtZrvkgFG8vfyCuJHQYuZAHGDnxFtRL2Xfte3hbarvUc"},{"id":"dd955f7aa01b51d473b776bcbd850274981865eef09f00ac79ef52d589f0f4ef","schema":{"$schema":"http://json-schema.org/draft-07/schema#","description":"Dock
+        Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false},"author":"did:dock:5FLSfzbTjhWVRfse8ksrpUyEMgSLjqyBC6qpA3gBChCgmnP6","uri":"blob:dock:5H5Ep6EverwD9FxHCQKF2ysmK5GPCj7K5HKAFK4qZUjjKaZH"},{"id":"c4e7668dcfe3f118492d110c42851bdafb7ad04be2184ddf862689ef0eef56c6","schema":{"$schema":"http://json-schema.org/draft-07/schema#","description":"Dock
+        Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false},"author":"did:dock:5HkSzz42UWqsnd5oA4cS5m5VpJVMhu1tUuSndpdyY9dSGvsG","uri":"blob:dock:5GWsyxj8NWFUdTextox1FhZAJnp9MCwSkdhaZnszFLAeJkdG"},{"id":"c081f9c89d438caf4faa9ac87cd0ab9b38d57d789cde97278658b8ac1323eac9","schema":{"$schema":"http://json-schema.org/draft-07/schema#","description":"Dock
+        Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false},"author":"did:dock:5H35UbUNbaMdsY3mYGSn334HVLPC982seyLDRotE9Cr3AgvB","uri":"blob:dock:5GR7fLojnutK8pyX6YMPBvGJ935eLAMGpfEanmUyw4e61trz"},{"id":"fc2699ce4869a0bfa1b5119a6dd0fb27e799eb890bb1a893653bc589714b9d3d","schema":{"$schema":"http://json-schema.org/draft-07/schema#","description":"Dock
+        Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false},"author":"did:dock:5CKHVa6wWvbRZdzh87dnJ1RbUzxRuMihi1boW3Dfs42917ev","uri":"blob:dock:5HmKPdNiQd8LSUZQXoFjHr2thngLb2JdEPts2iE2qFExiFUa"},{"id":"0fdfd09d12fd2f1dfca38d193ab1f8424e7536f6ac6f0a0cf37656b6877819f1","schema":{"$schema":"http://json-schema.org/draft-07/schema#","description":"Dock
+        Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false},"author":"did:dock:5CNAGLgKpGW34n1NzPv4yTHXUhUnHc6h2KQcjYUmDSzq1UdU","uri":"blob:dock:5CRX4ZyWWg7NULqoH8DXxQ5YNFTSFz6oJg6GVj2LYsqSkxJF"},{"id":"c08915e10d9161f3aedbc819de38ca2277bb99efb60538cc582703478443c63c","schema":{"$schema":"http://json-schema.org/draft-07/schema#","description":"Dock
+        Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false},"author":"did:dock:5EZj1cPBeYTBSwtxnuRFggNvBddEm5oWyNK7F3tNeKFQzpmA","uri":"blob:dock:5GR9mqhMxnYq5WAqW2D27DhjbfmYqyXhbQTEUNEbCrmdz37T"},{"id":"f9195a262a966a469b62715019c2005c02448fc533bdc2bb9b2125aceff2efd2","schema":{"$schema":"http://json-schema.org/draft-07/schema#","description":"Dock
+        Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false},"author":"did:dock:5HqAtroDSpVYsiUtcyNDadVRvAT5VYDisntxKN294VzHnUcx","uri":"blob:dock:5HhKK2WtQSZXGvTo5VNgHzzR16gB1Vf8YhnWAjqLs9v8siLM"},{"id":"1c60db3cc6cb56ce345625133347427eda3c588ad81312ff995961aa4f1a7d86","schema":{"$schema":"http://json-schema.org/draft-07/schema#","description":"Dock
+        Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false},"author":"did:dock:5E425yk8RmgwmxoQuubR9otGprGd3zUnVcERUYwkk47gb7Wu","uri":"blob:dock:5ChuyEKCqKvPvv6rNVBveLzeJbDW8p1aUcqPgoTcVgo4koGd"},{"id":"9b2f0c8db63a100e179c06595aa4cc14739bb57a4972700f244809ac493c6312","schema":{"$schema":"http://json-schema.org/draft-07/schema#","description":"Dock
+        Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false},"author":"did:dock:5GeSym3WMuEYuPbrmecRDTRENiafvY4zf4Uf39y2Dx1thER3","uri":"blob:dock:5FaBFng3w3tJ3NPuhfJoorEf73geXCevQrRPToKPYqCwLUzH"}]'
+  recorded_at: Mon, 10 Jan 2022 08:32:57 GMT
 - request:
     method: get
     uri: https://api-testnet.dock.io/schemas/e7e7bca9f2d2f9131161bac4fa7ce1574dc63182f83d56f79c24cbed66e660be
@@ -61,7 +70,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Tue, 04 Jan 2022 11:54:17 GMT
+      - Mon, 10 Jan 2022 08:32:57 GMT
       content-type:
       - application/json; charset=utf-8
       content-length:
@@ -82,5 +91,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"id":"e7e7bca9f2d2f9131161bac4fa7ce1574dc63182f83d56f79c24cbed66e660be","schema":{"$schema":"http://json-schema.org/draft-07/schema#","description":"Dock
         Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false},"author":"did:dock:5CFTYCb2WDNpfj8P9rLrZpt86srAmAEedRVjUtp2JaEgMyXw","uri":"blob:dock:5HJmkxotcpVn4v2P1j9PTxTYRnQx6cXxUn5MngnuxACWkVH4"}'
-  recorded_at: Tue, 04 Jan 2022 11:54:17 GMT
+  recorded_at: Mon, 10 Jan 2022 08:32:58 GMT
 recorded_with: VCR 6.0.0

@@ -76,7 +76,7 @@ RSpec.describe Dock::Api::Dids do
 
       expect(data).to match({
                               'data' => {
-                                'deleted' => true
+                                'status' => 'pending'
                               },
                               'id' => be_a(String)
                             })

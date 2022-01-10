@@ -17,7 +17,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Tue, 04 Jan 2022 11:29:30 GMT
+      - Mon, 10 Jan 2022 08:07:09 GMT
       content-type:
       - application/json; charset=utf-8
       content-length:
@@ -27,17 +27,17 @@ http_interactions:
       x-ratelimit-limit:
       - '200'
       x-ratelimit-remaining:
-      - '189'
+      - '190'
       access-control-allow-origin:
       - "*"
       etag:
-      - W/"a3-u189dEcOC8Bq0mG50QEU0P5jRVI"
+      - W/"a3-fz76BD9mEnAL/LQYQjlAnRLkQsk"
       vary:
       - Accept-Encoding
     body:
       encoding: UTF-8
-      string: '[{"name":"John Doe","logo":"https://pictures.com/logo.jpg","did":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","created":"2022-01-04T11:29:30.068Z"}]'
-  recorded_at: Tue, 04 Jan 2022 11:29:30 GMT
+      string: '[{"name":"John Doe","logo":"https://pictures.com/logo.jpg","did":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","created":"2022-01-10T08:07:09.533Z"}]'
+  recorded_at: Mon, 10 Jan 2022 08:07:09 GMT
 - request:
     method: get
     uri: https://api-testnet.dock.io/profiles/did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA
@@ -55,7 +55,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Tue, 04 Jan 2022 11:29:30 GMT
+      - Mon, 10 Jan 2022 08:07:09 GMT
       content-type:
       - application/json; charset=utf-8
       content-length:
@@ -65,15 +65,15 @@ http_interactions:
       x-ratelimit-limit:
       - '200'
       x-ratelimit-remaining:
-      - '188'
+      - '189'
       access-control-allow-origin:
       - "*"
       etag:
-      - W/"a1-rkF7ItmoMA0FMegyYtCUz9l9G+Q"
+      - W/"a1-pTvfPC0qqqTqEfCjQmOBGppUlKA"
       vary:
       - Accept-Encoding
     body:
       encoding: UTF-8
-      string: '{"name":"John Doe","logo":"https://pictures.com/logo.jpg","did":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","created":"2022-01-04T11:29:30.068Z"}'
-  recorded_at: Tue, 04 Jan 2022 11:29:30 GMT
+      string: '{"name":"John Doe","logo":"https://pictures.com/logo.jpg","did":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","created":"2022-01-10T08:07:09.533Z"}'
+  recorded_at: Mon, 10 Jan 2022 08:07:09 GMT
 recorded_with: VCR 6.0.0

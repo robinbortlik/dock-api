@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Tue, 04 Jan 2022 11:13:58 GMT
+      - Mon, 10 Jan 2022 07:52:41 GMT
       content-type:
       - application/json; charset=utf-8
       content-length:
@@ -29,24 +29,24 @@ http_interactions:
       x-ratelimit-limit:
       - '200'
       x-ratelimit-remaining:
-      - '190'
+      - '188'
       access-control-allow-origin:
       - "*"
       etag:
-      - W/"ef-QGM1vGprxO+T8M7HOJXUvHWGG0Q"
+      - W/"ef-21GLChdXcQs/J/zKiBkGMUqkBvs"
       vary:
       - Accept-Encoding
     body:
       encoding: UTF-8
-      string: '{"id":"1932","data":{"did":"did:dock:5GZxGBKBLbYM6iiNYnjFbECnqDWpWZkVTxTPDytC4T5BNVjh","hexDid":"0xc73f8b121a1ea32310c6b4244619cbf3f8f15d873559965b5843850ac05b4f7c","controller":"did:dock:5GZxGBKBLbYM6iiNYnjFbECnqDWpWZkVTxTPDytC4T5BNVjh"}}'
-  recorded_at: Tue, 04 Jan 2022 11:13:58 GMT
+      string: '{"id":"2250","data":{"did":"did:dock:5CjRpcJhqS1cryAoGmgtjcA9o4jQvzhjrsH4fuoRyKSXW9Fy","hexDid":"0x1d889727e0f84beb92c6a73c2900151a575a1c4ed977071c57b5723531ab4c85","controller":"did:dock:5CjRpcJhqS1cryAoGmgtjcA9o4jQvzhjrsH4fuoRyKSXW9Fy"}}'
+  recorded_at: Mon, 10 Jan 2022 07:52:41 GMT
 - request:
     method: post
     uri: https://api-testnet.dock.io/credentials
     body:
       encoding: UTF-8
       string: '{"persist":false,"anchor":true,"credential":{"id":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","context":["https://www.w3.org/2018/credentials/examples/v1"],"type":["UniversityDegreeCredential"],"subject":{"id":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","degree":{"type":"BachelorDegree","name":"Bachelor
-        of Science and Arts"}},"issuer":"did:dock:5GZxGBKBLbYM6iiNYnjFbECnqDWpWZkVTxTPDytC4T5BNVjh","issuanceDate":"2020-08-24T14:15:22Z"}}'
+        of Science and Arts"}},"issuer":"did:dock:5CjRpcJhqS1cryAoGmgtjcA9o4jQvzhjrsH4fuoRyKSXW9Fy","issuanceDate":"2020-08-24T14:15:22Z"}}'
     headers:
       User-Agent:
       - Faraday v2.0.0.alpha-4
@@ -60,7 +60,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Tue, 04 Jan 2022 11:13:59 GMT
+      - Mon, 10 Jan 2022 07:52:41 GMT
       content-type:
       - application/json; charset=utf-8
       content-length:
@@ -70,18 +70,18 @@ http_interactions:
       x-ratelimit-limit:
       - '200'
       x-ratelimit-remaining:
-      - '189'
+      - '187'
       access-control-allow-origin:
       - "*"
       etag:
-      - W/"31d-08c5mKuzF9Ka7T45zo3CSHPwAGk"
+      - W/"31d-i5o/knwSGUzwGs6gl8e6i3C2QdY"
       vary:
       - Accept-Encoding
     body:
       encoding: UTF-8
       string: '{"@context":["https://www.w3.org/2018/credentials/v1","https://www.w3.org/2018/credentials/examples/v1"],"id":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","type":["VerifiableCredential","UniversityDegreeCredential"],"credentialSubject":{"id":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","degree":{"type":"BachelorDegree","name":"Bachelor
-        of Science and Arts"}},"issuanceDate":"2020-08-24T14:15:22Z","proof":{"type":"Sr25519Signature2020","created":"2022-01-04T11:13:59Z","verificationMethod":"did:dock:5GZxGBKBLbYM6iiNYnjFbECnqDWpWZkVTxTPDytC4T5BNVjh#keys-1","proofPurpose":"assertionMethod","proofValue":"z2LMPqExrxB9CLVa4UL1Us8siP45f6PXZFp7FJv9Hap3s32x8NoDhLWqjdD9wgQxdHdiUfhhbgcFBVguZjaomZ6zo"},"issuer":"did:dock:5GZxGBKBLbYM6iiNYnjFbECnqDWpWZkVTxTPDytC4T5BNVjh"}'
-  recorded_at: Tue, 04 Jan 2022 11:13:59 GMT
+        of Science and Arts"}},"issuanceDate":"2020-08-24T14:15:22Z","proof":{"type":"Sr25519Signature2020","created":"2022-01-10T07:52:41Z","verificationMethod":"did:dock:5CjRpcJhqS1cryAoGmgtjcA9o4jQvzhjrsH4fuoRyKSXW9Fy#keys-1","proofPurpose":"assertionMethod","proofValue":"z3xqsCV5RarGxYRcrqYerAduDTNeipgTRL3hPp2VnUCjPRHD1bNJdniKR1RRLe1GkL6DAPGLoX7GzWEfES6jY5tpk"},"issuer":"did:dock:5CjRpcJhqS1cryAoGmgtjcA9o4jQvzhjrsH4fuoRyKSXW9Fy"}'
+  recorded_at: Mon, 10 Jan 2022 07:52:41 GMT
 - request:
     method: delete
     uri: https://api-testnet.dock.io/credentials/did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA
@@ -99,25 +99,17 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Tue, 04 Jan 2022 11:13:59 GMT
-      content-type:
-      - application/json; charset=utf-8
-      content-length:
-      - '16'
+      - Mon, 10 Jan 2022 07:52:41 GMT
       x-powered-by:
       - Express
       x-ratelimit-limit:
       - '200'
       x-ratelimit-remaining:
-      - '188'
+      - '186'
       access-control-allow-origin:
       - "*"
-      etag:
-      - W/"10-oV4hJxRVSENxc/wX8+mA4/Pe4tA"
-      vary:
-      - Accept-Encoding
     body:
-      encoding: UTF-8
-      string: '{"success":true}'
-  recorded_at: Tue, 04 Jan 2022 11:13:59 GMT
+      encoding: ASCII-8BIT
+      string: ''
+  recorded_at: Mon, 10 Jan 2022 07:52:41 GMT
 recorded_with: VCR 6.0.0
