@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Tue, 04 Jan 2022 11:14:00 GMT
+      - Mon, 10 Jan 2022 07:52:42 GMT
       content-type:
       - application/json; charset=utf-8
       content-length:
@@ -29,15 +29,15 @@ http_interactions:
       x-ratelimit-limit:
       - '200'
       x-ratelimit-remaining:
-      - '187'
+      - '185'
       access-control-allow-origin:
       - "*"
       etag:
-      - W/"ef-qp/BqPL4z67HeZVmXZdizca02MM"
+      - W/"ef-qoplKIhPXtMW6Rg03xUmlUN92/g"
       vary:
       - Accept-Encoding
     body:
       encoding: UTF-8
-      string: '{"id":"1934","data":{"did":"did:dock:5DXws6NYH7GdENGJ2FGbcmos3Qy3csGFgqnoJq9ZoxbNkWKS","hexDid":"0x41030320d5ca3566f2422263276c0f8d2c08b540a31a1bd215b50fbd1066da49","controller":"did:dock:5DXws6NYH7GdENGJ2FGbcmos3Qy3csGFgqnoJq9ZoxbNkWKS"}}'
-  recorded_at: Tue, 04 Jan 2022 11:14:00 GMT
+      string: '{"id":"2252","data":{"did":"did:dock:5HVYNVaXp1CkGgFWU7vj6q3kXQCD8uMGLeAPrE83boPqZnfA","hexDid":"0xf01e5ed2213a987379378185194299487ed9ad930e3013672958a032770606bc","controller":"did:dock:5HVYNVaXp1CkGgFWU7vj6q3kXQCD8uMGLeAPrE83boPqZnfA"}}'
+  recorded_at: Mon, 10 Jan 2022 07:52:42 GMT
 recorded_with: VCR 6.0.0

@@ -105,9 +105,7 @@ RSpec.describe Dock::Api::Registries do
       expect(data).to match({
                               'id' => be_a(String),
                               'data' => {
-                                'hexId' => be_a(String),
-                                'id' => be_a(String),
-                                'lastModified' => be_a(Integer)
+                                'status' => 'pending'
                               }
                             })
     end

@@ -19,7 +19,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Tue, 04 Jan 2022 11:54:16 GMT
+      - Mon, 10 Jan 2022 08:32:57 GMT
       content-type:
       - application/json; charset=utf-8
       content-length:
@@ -33,20 +33,20 @@ http_interactions:
       access-control-allow-origin:
       - "*"
       etag:
-      - W/"ef-Gmx/qonMaIRaf/BbIRsguW0eBI4"
+      - W/"ef-tvC1gzcMJ/aTi549Dm1Gn+Uc7Ys"
       vary:
       - Accept-Encoding
     body:
       encoding: UTF-8
-      string: '{"id":"1952","data":{"did":"did:dock:5FLSfzbTjhWVRfse8ksrpUyEMgSLjqyBC6qpA3gBChCgmnP6","hexDid":"0x90b583441ee9116a7e392d9a2409bad1b914a21893413d33c913723f5206daf3","controller":"did:dock:5FLSfzbTjhWVRfse8ksrpUyEMgSLjqyBC6qpA3gBChCgmnP6"}}'
-  recorded_at: Tue, 04 Jan 2022 11:54:17 GMT
+      string: '{"id":"2273","data":{"did":"did:dock:5CkwYmcY1GCtzb84yobm7Nw2QNynD77w9geaRZn8ktvMPXxY","hexDid":"0x1eafe7d1592ee1ebcf5d1a5d27af5b59e213bcf45115907b3152a9a30d6742e8","controller":"did:dock:5CkwYmcY1GCtzb84yobm7Nw2QNynD77w9geaRZn8ktvMPXxY"}}'
+  recorded_at: Mon, 10 Jan 2022 08:32:57 GMT
 - request:
     method: post
     uri: https://api-testnet.dock.io/schemas
     body:
       encoding: UTF-8
       string: '{"$schema":"http://json-schema.org/draft-07/schema#","description":"Dock
-        Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false,"author":"did:dock:5FLSfzbTjhWVRfse8ksrpUyEMgSLjqyBC6qpA3gBChCgmnP6"}'
+        Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false,"author":"did:dock:5CkwYmcY1GCtzb84yobm7Nw2QNynD77w9geaRZn8ktvMPXxY"}'
     headers:
       User-Agent:
       - Faraday v2.0.0.alpha-4
@@ -60,7 +60,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Tue, 04 Jan 2022 11:54:17 GMT
+      - Mon, 10 Jan 2022 08:32:57 GMT
       content-type:
       - application/json; charset=utf-8
       content-length:
@@ -74,12 +74,12 @@ http_interactions:
       access-control-allow-origin:
       - "*"
       etag:
-      - W/"2af-cIwnMS3g+HjOL1m21AJZoL74xpo"
+      - W/"2af-hozutwRYiu8Y9I5OeouIBMmAMtA"
       vary:
       - Accept-Encoding
     body:
       encoding: UTF-8
-      string: '{"id":"1953","data":{"id":"dd955f7aa01b51d473b776bcbd850274981865eef09f00ac79ef52d589f0f4ef","schema":{"$schema":"http://json-schema.org/draft-07/schema#","description":"Dock
-        Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false},"author":"did:dock:5FLSfzbTjhWVRfse8ksrpUyEMgSLjqyBC6qpA3gBChCgmnP6","signature":{"Sr25519":"0x9634c6d3441731c40169193923ea7ae5993d35a5221874f710876ea856995c2496563d4a340436943c4f12da67a7504ff45e2fe9d67b18eda7701b439dafdd8a"},"uri":"blob:dock:5H5Ep6EverwD9FxHCQKF2ysmK5GPCj7K5HKAFK4qZUjjKaZH"}}'
-  recorded_at: Tue, 04 Jan 2022 11:54:17 GMT
+      string: '{"id":"2274","data":{"id":"42a2b701ab51a38149f1a663948736b9d994194926d7a82c6a5a10b13de96bc1","schema":{"$schema":"http://json-schema.org/draft-07/schema#","description":"Dock
+        Schema Example","type":"object","properties":{"id":{"type":"string"},"emailAddress":{"type":"string","format":"email"},"alumniOf":{"type":"string"}},"required":["emailAddress","alumniOf"],"additionalProperties":false},"author":"did:dock:5CkwYmcY1GCtzb84yobm7Nw2QNynD77w9geaRZn8ktvMPXxY","signature":{"Sr25519":"0x9cb0c60a28e81c52368a3326350d83063f853e17e1827976831903bd982b8b5722a05f06d7c267a47b496d1f2efe4afbc66f95d809b3de8da568c025289ca88c"},"uri":"blob:dock:5Da5MUzAxjmvNMhvjkw2AnCFGZFFsXpY8Ls3haA9WkeGKxbH"}}'
+  recorded_at: Mon, 10 Jan 2022 08:32:57 GMT
 recorded_with: VCR 6.0.0

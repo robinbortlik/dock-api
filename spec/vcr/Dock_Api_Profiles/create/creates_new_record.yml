@@ -20,7 +20,7 @@ http_interactions:
       message: OK
     headers:
       date:
-      - Tue, 04 Jan 2022 11:29:30 GMT
+      - Mon, 10 Jan 2022 08:07:09 GMT
       content-type:
       - application/json; charset=utf-8
       content-length:
@@ -30,7 +30,7 @@ http_interactions:
       x-ratelimit-limit:
       - '200'
       x-ratelimit-remaining:
-      - '190'
+      - '191'
       access-control-allow-origin:
       - "*"
       etag:
@@ -41,5 +41,5 @@ http_interactions:
       encoding: UTF-8
       string: '{"did":"did:dock:5CDsD8HZa6TeSfgmMcxAkbSXYWeob4jFQmtU6sxr4XWTZzUA","name":"John
         Doe","logo":"https://pictures.com/logo.jpg"}'
-  recorded_at: Tue, 04 Jan 2022 11:29:30 GMT
+  recorded_at: Mon, 10 Jan 2022 08:07:09 GMT
 recorded_with: VCR 6.0.0
